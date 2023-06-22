@@ -1,4 +1,4 @@
-# Fintech_BAM_MPV
+# Fintech_BAM_MVP
 This repository was created as part of the MSc BAM for Fintech and served as a proof of concept 
 
 ## This MVP uses two APIs 
