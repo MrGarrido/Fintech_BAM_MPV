@@ -25,21 +25,16 @@ The banking data is also randomized
         - Going Out: mean of 150€ to go out (SD 10%)
         - Transport: mean of 150€ in transport a month
 
-In order to run the dashboard, you should clone the repo and follow these steps:
+In order to run the dashboard, you should clone the repo and follow these simple steps:
 
-Mac OS on the terminal
+MUST HAVE DOCKER INSTALLED and opened 
 
-- virtualenv env
-- source env/bin/activate
-- pip3 install -r requirements.txt
+Then on the terminal: 
+-cd flask-black-dashboard
+- docker-compose up --build 
 
-- export FLASK_APP=run.py
-- export FLASK_ENV=development
+The app runs locally at http://localhost:5085
 
-- flask run
-
-The App runs locally at http://127.0.0.1:5000/
-
-- For Windows, consult the open-source documentation of https://github.com/app-generator/flask-volt-dashboard
+- For MAC/Windows, without Docker consult the open-source documentation of https://github.com/app-generator/flask-volt-dashboard
 
 - Special thanks to App Generator for allowing this template to be open source
