@@ -30,10 +30,10 @@ In order to run the dashboard, you should clone the repo and follow these simple
 MUST HAVE DOCKER INSTALLED and opened 
 
 Then on the terminal: 
--cd flask-black-dashboard
-- docker-compose up --build 
+cd flask-volt-dashboard
+docker-compose up --build 
 
-The app runs locally at http://localhost:5085
+The app runs locally at http://localhost:5085/
 
 - For MAC/Windows, without Docker consult the open-source documentation of https://github.com/app-generator/flask-volt-dashboard
 
